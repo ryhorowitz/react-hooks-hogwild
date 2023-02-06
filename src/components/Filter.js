@@ -1,11 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Filter() {
-  const [greased, setGreased] = useState(false)
+function Filter({greased, handleClick}) {
 
-  function handleClick() {
-    setGreased(!greased)
-  }
   return (
     <div className="filterWrapper">
       <label>{greased ? "Show all pigs " : "Show greased Pigs "}</label>

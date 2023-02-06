@@ -5,7 +5,7 @@ function Tile({ hog }) {
 
   const { name, specialty, greased, weight, image } = hog
   
-  console.log(hog['highest medal achieved'])
+  // console.log(hog['highest medal achieved'])
   const text = <div className="maxPigTile">
     <p>Specialty: {specialty}</p>
     <p>Weight: {weight}lbs</p>
