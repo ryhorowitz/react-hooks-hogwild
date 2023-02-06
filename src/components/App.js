@@ -9,6 +9,7 @@ function App() {
 	return (
 		<div className="App">
 			<Nav />
+			<Filter />
 			<HogsList hogs={pigs}/>
 		</div>
 	);
